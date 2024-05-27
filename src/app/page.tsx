@@ -189,6 +189,20 @@ export default function Page() {
 						/>
 						<h4>blog.madrimov.uz</h4>
 					</Link>
+					<Link
+						href="https://medium.com/@madrimovdev"
+						className="flex items-center gap-4 bg-gray-800/50 hover:bg-gray-800 p-4 rounded-md hover:scale-105 hover:shadow-2xl transition-all"
+						target="_blank"
+					>
+						<Image
+							src="/medium.png"
+							width={35}
+							height={35}
+							alt="github"
+							className="bg-slate-200 rounded-md"
+						/>
+						<h4>@madrimovdev</h4>
+					</Link>
 				</div>
 			</div>
 		</div>
